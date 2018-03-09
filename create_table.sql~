@@ -4,7 +4,7 @@ CREATE TABLE usuario(
 CREATE TABLE  mensagem(
 	id serial PRIMARY KEY,
 	fron varchar(100),
-	is_remove boolean DEFAUT SET TRUE
+	is_remove boolean
 );
  CREATE TABLE userConection(
   email varchar(100),

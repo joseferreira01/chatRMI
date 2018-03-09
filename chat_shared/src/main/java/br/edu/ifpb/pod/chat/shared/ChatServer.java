@@ -43,10 +43,10 @@ public interface ChatServer {
  * is_sended  boolean
  * )
  * encaminhar msg 
- * @param message forward(Message message);
+ * @param message forward(Mensagem message);
 
  */
-    void persisteAndforward(Message message);
+    void persisteAndforward(Mensagem message);
 
-    void remove(Message msg);
+    void remove(Mensagem msg);
 }
